@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+    alert("Feel free to add/remove items from the list, and check out all of the features I added in -G")
+
     // Listen for clicks on different DOM elements, and call their respective functions
     $('.add-to-list').click(addToListItem);
     $('.clear-list').click(clearAllListItems);
