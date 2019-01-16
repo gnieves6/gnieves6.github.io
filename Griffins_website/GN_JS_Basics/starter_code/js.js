@@ -21,7 +21,7 @@ $(document).ready(function(){
     //  then revert back to citipix skyline with message saying 
     //  "sorry we dont have an image for your city just yet, stay tuned"
 
-
+    alert('Try Typing one of the following NYC, SF, SYD, LA, ATX and see what happens. Then try and type SEA and see what happens')
 
 $('form').submit(function(){
     event.preventDefault();
