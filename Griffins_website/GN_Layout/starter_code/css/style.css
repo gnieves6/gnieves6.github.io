@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  
+}
+
+header {
+  background-color: #033048;
+  height: 150px;
+}
+
+header h1 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 800px;
+  color: white;
+  padding: 30px 0px;
+  margin-bottom: 0 auto;
+  margin-left: 150px;
+  letter-spacing: 1.5px;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 0px 40px;
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+#blog {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  width: 700px;
+  margin-right: 20px;
+}
+
+#blog nav a {
+  
+  text-decoration: none;
+  display: block;
+}
+
+.column h2 { 
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.column p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+.column p:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 1;
+  font-weight: 800;
+  margin-right: 10px;
+
+}
+
+.column a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+  margin-left: 450px;
+  padding: 100px;
+}
+
+.column hr {
+  margin: 40px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.sidebar h3 {
+  font-size: 32px;
+  color: #033048;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  font-size: 24px;
+  color: #033048;
+}
+
+.sidebar a:hover {
+  color: red;
+}
+
+.sidebar nav {
+  margin-bottom: 60px;
+}
+
+.sidebar p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.sidebar article a {
+  text-decoration: none;
+  color: #033048;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sidebar article {
+  margin-bottom: 40px;
+}
+
+
+aside { 
+  height: 50px;
+  background-color: #f9e42e;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+aside a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 2px solid #033048;
+  background-color: #033048;
+  padding: 5px 30px;
+  color: white;
+ 
+}
+
+footer {
+  text-align: center;
+  background-color: #121212;
+  height: 300px;
+  width: 100%;
+}
+
+
+footer h4 {
+  font-weight: 800px;
+  color: #f9e42e;
+  padding: 30px 0px;
+  font-size: 30px;
+}
+
+footer nav {
+  padding: 30px 30px;
+  letter-spacing: 30px;
+}
+
+footer p {
+  font-size: 10px;
+  color: white;
+  padding-top: 60px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
