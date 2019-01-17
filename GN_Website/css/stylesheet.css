@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+
+/* social media image credit */
+
+#credit {
+    display: none;
+}
+
+/* style for body of home page on a desktop */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.para {
+    background-image: url("../Images/thebean.png");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.spaceone {
+    background-image: url("../Images/bridge.png");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.spacetwo {
+    background-image: url("../Images/chisign.png");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.spacethree {
+    background-image: url("../Images/cubswin.png");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.spacefour {
+    background-image: url("../Images/chiskyline.png");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: line-through;
+    font-size: 80px;
+    margin-top: 0px;
+    padding-top: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header h1:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.about section {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio p {
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 1.8;
+    padding-left: 50px;
+}
+
+.bio p b {
+    color: blue;
+}
+
+.readmore, .readless {
+    text-align: right;
+    margin-top: 30px;
+  }
+
+.readmore a, .readless a {
+    color: darkgray;
+    font-weight: 600;
+    text-decoration: none;
+    text-decoration: line-through;
+  }
+
+.readless a:hover {
+    text-decoration: none;
+  }
+
+.readmore a:hover {
+    text-decoration: none;
+}
+
+.headshot img {
+    padding: 40px;
+    height: 400px;
+}
+
+.headshot img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.capabilities {
+    height: 700px;
+    background-color: darkgray;
+    padding-top: 60px;
+}
+
+.capabilities h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.capabilities h1:hover {
+    text-decoration: line-through;
+}
+
+.capabilities li {
+    border-radius: 20px;
+    padding: 40px;
+    background: gray;
+    font: white;
+    opacity: .7;
+    text-decoration: line-through;
+   
+}
+
+li:hover {
+    opacity: 10;
+    background: white;
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 150px 0px;
+    list-style: none;
+}
+ 
+.second {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.contact {
+    height: 800px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.contact h1:hover {
+    text-decoration: line-through;
+    color: black;
+}
+
+fieldset {
+    border: none;
+    justify-content: center;
+
+}
+.contact label {
+    font-size: 20px;
+    font-weight: 150;
+    display: inline-block;
+    padding-right: 40px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid gray;
+    margin: 10px;
+    background: none;
+    width: 300px; 
+}
+
+input[type="email"] {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid gray;
+    margin: 10px;
+    background: none;
+    width: 300px; 
+}
+
+.contact textarea {
+    background-color: lightgray;
+    font: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type= "submit"] {
+    width: 250px;
+    font-size: 40px;
+    margin-top: 20px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.past {
+    height: 1000px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.past h1 {
+    font-size: 60px;
+}
+ 
+.past h1:hover {
+    text-decoration: line-through;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+}
+
+.thumbnails a {
+    padding: 30px;
+}
+
+.past h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.past h2:hover {
+    text-decoration: line-through;
+}
+
+#section2 a {
+    margin: 40px;
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: darkgray;
+    font: black;
+}
+
+#section2 a:visited {
+    background-color: lightgray;
+    color: gray;
+}
+
+#section2 a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.footer {
+   background: gray;
+    height: 300px;
+    text-align: center;
+  
+    
+}
+
+.footer p {
+    color: white;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.footer a {
+    padding-bottom: 30px;
+    margin: 40px;
+}
