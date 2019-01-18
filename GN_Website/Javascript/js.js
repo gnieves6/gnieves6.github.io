@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.readmore').hide();
+    $('.readless').hide();
 
     $('.readmore').click(function(){
 
