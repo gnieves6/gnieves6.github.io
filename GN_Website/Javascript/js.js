@@ -17,9 +17,9 @@ $(document).ready(function(){
 
 });
 
-    // $('a').click(function(event){
-    //     event.preventDefault();
-    // });
+    $('.bio a').click(function(event){
+        event.preventDefault();
+    });
 
 
 
